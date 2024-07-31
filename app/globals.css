@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.graph-paper {
+  background-image: 
+    linear-gradient(to right, #cbd5e1 1px, transparent 1px), 
+    linear-gradient(to bottom, #cbd5e1 1px, transparent 1px);
+  background-size: 20px 20px; /* Tamanho dos quadrados */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  color: #39ff14; /* Cor primária */
+  margin-bottom: 1rem;
+}
+
+p {
+  font-family: 'Georgia', serif;
+  color: #ffffff; /* Texto padrão em branco para contraste */
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #ff007f; /* Rosa neon */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e1ff00; /* Amarelo cítrico */
+}
+
+.card {
+  background-color: #1a1a1a; /* Cor de fundo escura para contraste */
+  color: #ffffff; /* Texto branco */
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+button {
+  background-color: #39ff14; /* Cor primária */
+  color: #1a1a1a; /* Texto escuro para contraste */
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e1ff00; /* Amarelo cítrico ao passar o mouse */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.section {
+  padding: 4rem 0;
+}
