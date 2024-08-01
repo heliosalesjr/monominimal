@@ -13,7 +13,7 @@ export default function Home() {
 
       </div>
 
-      <section className="section bg-graph-paper text-center">
+      <section className="section text-center">
         <h1 className="text-4xl font-bold mb-4">Bem-vindo ao Meu Experimento</h1>
         <p className="text-lg mb-6 bg-pink-400">A ideia é criar um design system minimalista e expressivo</p>
         <button className="">Saiba Mais</button>

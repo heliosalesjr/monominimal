@@ -1,7 +1,7 @@
 
 export default function GridLayout() {
     return (
-      <div className="container mx-auto p-6">
+      <div className="container mx-auto p-6 bg-graph-paper">
         {/* Linha 1 */}
         <div className="flex flex-wrap mb-6">
           {/* Coluna 1: 1/3 */}
