@@ -7,11 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+
+      fontFamily: {
+        sans: ['Chivo', 'Helvetica', 'Arial', 'sans-serif'], // Define Chivo como a fonte sans-serif padrão
+        serif: ['Georgia', 'serif'],
+      },
       colors: {
-        primary: '#39ff14', // Verde neon
-        secondary: '#00ffff', // Azul neon
-        tertiary: '#ff007f', // Rosa neon
-        accent: '#e1ff00', // Amarelo cítrico
+        primary: '#2F6AD3', // Main Blue of mine <3
+        secondary: '#CEDFFD', // Azul bebe
+        tertiary: '#FF588F', // Stronger Pink
+        accent: '#FF7BA1', // My Pink
       },
       spacing: {
         '128': '32rem',

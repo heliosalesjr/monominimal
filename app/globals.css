@@ -1,6 +1,15 @@
+/* global.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: #E7EDF8; /* Cor de fundo do body */
+  font-family: 'Chivo', 'Helvetica', 'Arial', sans-serif; /* Fonte padrão para o body */
+}
 
 .graph-paper {
   background-image: 
@@ -10,8 +19,8 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Helvetica', 'Arial', sans-serif;
-  color: #39ff14; /* Cor primária */
+  font-family: inherit; /* Usa a fonte do body */
+  color: #2F6AD3; /* Cor primária */
   margin-bottom: 1rem;
 }
 
@@ -23,12 +32,12 @@ p {
 }
 
 a {
-  color: #ff007f; /* Rosa neon */
+  color: #FF588F; 
   text-decoration: none;
 }
 
 a:hover {
-  color: #e1ff00; /* Amarelo cítrico */
+  color: #2F6AD3; 
 }
 
 .card {
@@ -41,16 +50,18 @@ a:hover {
 }
 
 button {
-  background-color: #39ff14; /* Cor primária */
+  background-color: #dbe5f7; /* Fundo branco */
   color: #1a1a1a; /* Texto escuro para contraste */
   padding: 0.75rem 1.5rem;
   border-radius: 0.25rem;
   font-weight: bold;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  border: 2px solid #2F6AD3; /* Borda inicial azul */
 }
 
 button:hover {
-  background-color: #e1ff00; /* Amarelo cítrico ao passar o mouse */
+  background-color: #E7EDF8; /* Fundo no hover */
+  border-color: #FF588F; /* Borda rosa no hover */
 }
 
 .container {

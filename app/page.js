@@ -15,7 +15,7 @@ export default function Home() {
       <section className="section bg-graph-paper text-center">
         <h1 className="text-4xl font-bold mb-4">Bem-vindo ao Meu Experimento</h1>
         <p className="text-lg mb-6 bg-pink-400">A ideia é criar um design system minimalista e expressivo</p>
-        <button className="bg-accent hover:bg-pink-300">Saiba Mais</button>
+        <button className="">Saiba Mais</button>
     </section>
     </>
   );
