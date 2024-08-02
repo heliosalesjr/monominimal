@@ -1,5 +1,6 @@
 import Image from "next/image";
 import GridLayout from "./components/GridLayout";
+import BlogPost from "./components/BlogPost";
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
         <p className="text-lg mb-6 bg-pink-400">A ideia é criar um design system minimalista e expressivo</p>
         <button className="">Saiba Mais</button>
     </section>
+
+    <BlogPost />
     <GridLayout />
     </>
   );

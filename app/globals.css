@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 body {
-  background-color: #E7EDF8; /* Cor de fundo do body */
+  background-color: #F8EEF5; /* Cor de fundo do body */
   font-family: 'Chivo', 'Helvetica', 'Arial', sans-serif; /* Fonte padrão para o body */
 }
 
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-family: 'Georgia', serif;
-  color: #ffffff; /* Texto padrão em branco para contraste */
+  
   line-height: 1.6;
   margin-bottom: 1rem;
 }
