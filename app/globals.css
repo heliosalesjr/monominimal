@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 body {
-  background-color: #F8EEF5; /* Cor de fundo do body */
+  background-color: #EEEEF8; /* Cor de fundo do body */
   font-family: 'Chivo', 'Helvetica', 'Arial', sans-serif; /* Fonte padrão para o body */
 }
 
@@ -72,4 +72,22 @@ button:hover {
 
 .section {
   padding: 4rem 0;
+}
+
+/* CSS para o filtro de imagem */
+.image-container {
+  position: relative;
+  display: inline-block; /* Para que o overlay funcione corretamente */
+  overflow: hidden; /* Para garantir que nada "vaze" da borda */
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  transition: filter 0.5s ease, transform 0.5s ease; /* Transição suave para o efeito de hover */
+  filter: grayscale(100%) sepia(100%) hue-rotate(170deg) saturate(400%) brightness(0.8); /* Ajusta para dar tom azul */
+}
+
+.image-container:hover img {
+  filter: none; /* Remove o filtro de escala de cinza no hover */
 }

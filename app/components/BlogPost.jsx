@@ -14,7 +14,7 @@ export default function BlogPost() {
         </h2>
   
         {/* Imagem do Post */}
-        <div className="mb-6">
+        <div className="mb-6 image-container">
           <img
             src="./postbg.jpg"
             alt="Exemplo de design minimalista"
