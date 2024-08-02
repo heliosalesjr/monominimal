@@ -16,7 +16,20 @@ body {
     linear-gradient(to right, #cbd5e1 1px, transparent 1px), 
     linear-gradient(to bottom, #cbd5e1 1px, transparent 1px);
   background-size: 20px 20px; /* Tamanho dos quadrados */
+  animation: moveBackgroundX 3s linear infinite;
 }
+
+@keyframes moveBackgroundX {
+  from {
+    background-position-x: 0px; /* Início na posição 0 */
+  }
+  to {
+    background-position-x: 20px; /* Movendo 20px à direita */
+  }
+}
+
+
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: inherit; /* Usa a fonte do body */
