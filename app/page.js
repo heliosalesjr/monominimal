@@ -1,10 +1,11 @@
-import Image from "next/image";
+import Navbar from "./components/Navbar";
 import GridLayout from "./components/GridLayout";
 import BlogPost from "./components/BlogPost";
 
 export default function Home() {
   return (
     <>
+      <Navbar />
       <div className="bg-graph-paper graph-paper p-6 rounded-lg shadow-lg max-w-3xl mx-auto m-16">
         <h1 className="text-primary text-4xl">MONOMINIMAL by HELIOSAL</h1>
 
