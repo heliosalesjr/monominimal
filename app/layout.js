@@ -11,12 +11,19 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <NextUIProvider>
+    
 
       <html lang="en">
-        <body className={chivo.className}>{children}</body>
+        
+          <body className={chivo.className}>
+            <NextUIProvider>
+              {children}
+            </NextUIProvider>
+          </body>
+        
+       
       </html>
-    </NextUIProvider>
+    
 
   );
 }
