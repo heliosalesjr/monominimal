@@ -3,15 +3,19 @@
 export default function BlogPost() {
     return (
       <article className="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-lg mt-8 my-16">
-        {/* Título do Post */}
-        <h1 className="text-3xl font-bold text-primary mb-2 text-center">
-          Minimalismo no Design: A Arte da Simplicidade
-        </h1>
-  
-        {/* Subtítulo do Post */}
-        <h2 className="text-xl font-semibold text-primary mb-4 text-center">
-          Como o Azul e o Rosa Criam Harmonia
-        </h2>
+        
+        <div className="max-w-2xl bg-graph-paper graph-paper mx-auto p-8 mt-4 mb-8">
+          {/* Título do Post */}
+          <h1 className="text-3xl font-bold text-primary mb-2 text-center">
+            Minimalismo no Design: A Arte da Simplicidade
+          </h1>
+    
+          {/* Subtítulo do Post */}
+          <h2 className="text-xl font-semibold text-primary mb-4 text-center">
+            Como o Azul e o Rosa Criam Harmonia
+          </h2>
+        </div>
+        
   
         {/* Imagem do Post */}
         <div className="mb-6 image-container">
@@ -23,7 +27,7 @@ export default function BlogPost() {
         </div>
   
         {/* Texto do Post */}
-        <div className="leading-relaxed space-y-4">
+        <div className="leading-relaxed space-y-4 p-8">
           <p>
             O minimalismo no design é mais do que apenas uma estética; é uma filosofia que preza pela
             simplicidade e eficiência. A ideia é eliminar o excesso e focar no que realmente importa,
