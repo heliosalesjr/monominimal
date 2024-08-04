@@ -2,9 +2,9 @@
 
 export default function BlogPost() {
     return (
-      <article className="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-lg mt-8 my-16">
+      <article className="max-w-5xl mx-auto bg-white p-6 rounded-lg shadow-lg mt-8 my-16">
         
-        <div className="max-w-2xl bg-graph-paper graph-paper mx-auto p-8 mt-4 mb-8">
+        <div className="bg-graph-paper graph-paper mx-auto p-8 py-8">
           {/* Título do Post */}
           <h1 className="text-3xl font-bold text-primary mb-2 text-center">
             Minimalismo no Design: A Arte da Simplicidade

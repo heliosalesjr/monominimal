@@ -104,3 +104,22 @@ button:hover {
 .image-container:hover img {
   filter: none; /* Remove o filtro de escala de cinza no hover */
 }
+
+
+.hero {
+  background: linear-gradient(120deg, #2F6AD3, #FF588F, #e2e2e2, #f8f8f8, #c5c5c5);
+  background-size: 300% 300%;
+  animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
