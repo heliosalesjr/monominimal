@@ -15,7 +15,7 @@ export default function CustomCard({ image, title, description, tags }) {
       </div>
 
       {/* Conteúdo do Card */}
-      <div className="p-4">
+      <div className="p-4 m-2">
         <div className="flex items-center justify-between mb-2">
           <h1 className="text-2xl font-bold">{title}</h1>
           <div className="flex items-center space-x-2">
@@ -31,7 +31,7 @@ export default function CustomCard({ image, title, description, tags }) {
           {tags.map((tag, index) => (
             <span
               key={index}
-              className="bg-accent text-white px-2 py-1 rounded-full text-sm"
+              className="bg-accent text-white px-2 py-1 rounded-full text-sm mb-2"
             >
               {tag}
             </span>

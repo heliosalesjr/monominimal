@@ -12,16 +12,7 @@ export default function Footer() {
           <p className="text-sm">© 2024 Monominimal. Todos os direitos reservados.</p>
         </div>
 
-        {/* Links de Navegação */}
-        <div className="flex space-x-4 mb-4 md:mb-0">
-          
-          <a href="#" className="hover:text-white transition-colors">
-            About
-          </a>
-          <a href="#" className="hover:text-white transition-colors">
-            Contact
-          </a>
-        </div>
+       
 
         {/* Redes Sociais */}
         <div className="flex space-x-4">

@@ -26,7 +26,7 @@ export default function CardList() {
   ];
 
   return (
-    <div className="flex items-center justify-center ">
+    <div className="flex items-center justify-center max-w-5xl m-auto">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4 py-16">
         {cardData.map((card, index) => (
           <CustomCard

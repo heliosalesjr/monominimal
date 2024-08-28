@@ -12,7 +12,7 @@ export default function App() {
     <Navbar>
       <NavbarBrand className="navbar-brand">
         
-        <h1 className="font-bold text-slate-800 hover:text-primary">Monominimal</h1>
+        <h1 className="font-bold text-slate-800 hover:text-primary text-xl my-4">Monominimal</h1>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         
