@@ -1,6 +1,6 @@
 // components/Footer.jsx
 
-import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaFacebookF, FaYoutube, FaInstagram } from 'react-icons/fa';
 
 export default function Footer() {
   return (
@@ -20,7 +20,7 @@ export default function Footer() {
             <FaFacebookF size={24} />
           </a>
           <a href="#" aria-label="Twitter" className="hover:text-white transition-colors">
-            <FaTwitter size={24} />
+            <FaYoutube size={24} />
           </a>
           <a href="#" aria-label="Instagram" className="hover:text-white transition-colors">
             <FaInstagram size={24} />
